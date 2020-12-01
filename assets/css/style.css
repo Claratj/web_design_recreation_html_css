@@ -1,0 +1,67 @@
+:root {
+    --gold1: #F4BD76;
+    --gold2: #F6CD8F;
+    --gray: #ffffff80;
+    --gray2: #f7d9d990;
+    --black1: #1A1B1F;
+    --black2: #30353B;
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav.menu {
+    color: white;
+}
+
+nav.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+}
+
+nav.menu ul li {
+    padding: 7px;
+    height: 100%;
+}
+
+nav.menu ul li:hover {
+    color: var(--gold1);
+    background-color: rebeccapurple;
+}
+
+nav.menu li a {
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header.main-header {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+}
+
+header div.secondary-header {
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Sección servicios */
+
+
