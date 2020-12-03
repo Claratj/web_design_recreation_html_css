@@ -42,7 +42,6 @@ button {
 /* Contenido intermedio */
 
 main {
-    background-color: ;
     width: 90%;
     margin: auto;
     /* height: 100vh; */
@@ -62,33 +61,44 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: hotpink;
-    width: 100%;
-
 }
 .tarjetas-servicios {
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
     width: 30%;
-    padding: 20px 0;
+    padding: 30px 0;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(--color_shadow);
+
+
 }
 .img-servicios {
     width: 95%;
-    border-radius: 6px;
-   
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+
 }
+
 
 .subtitulo-tarjeta {
     color: var(--gold1);
+    font-weight: 700;
+    margin: 25px 0 12px;
+    font-size: 18px;
+
 }
 
 
 
 .tarjeta-descripcion {
-    padding: 20px;
     color: white;
-    
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
 }
 .caja-boton {
     display: flex;
@@ -134,7 +144,7 @@ h2 {
 
 
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     .third-header {
         display: flex;
         flex-wrap: wrap;
@@ -146,4 +156,4 @@ h2 {
     header div.secondary-header {
 
     }
-}
+} */
