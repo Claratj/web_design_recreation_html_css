@@ -151,10 +151,7 @@ main {
     
 }
 .img-servicios {
-    /* position: absolute; */
-    object-fit: cover;
     width: 95%;
-    height: 300px;
     border-radius: 6px;
    
 }
@@ -194,10 +191,15 @@ h2 {
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
-    .contenedor-servicios {
-        display: flex;
-        flex-wrap: wrap;
+    .tablet {
+        height: auto;
+        padding: 0 100px 0;
+    
     }
+    .contenedor-servicios {
+        display: none;
+      
+    
 }
 
 
