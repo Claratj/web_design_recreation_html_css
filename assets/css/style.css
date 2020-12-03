@@ -37,86 +37,7 @@ button {
     font-size: 18px;
 }
 
-/* Header */
 
-nav.menu {
-    color: white;
-}
-
-nav.menu ul {
-    list-style-type: none;
-    overflow: hidden;
-    display: flex;
-}
-
-nav.menu ul li {
-    padding: 7px;
-    height: 100%;
-}
-
-nav.menu ul li:hover {
-    color: var(--gold1);
-    background-color: rebeccapurple;
-}
-
-nav.menu li a {
-    color: inherit;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-}
-
-header.main-header {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
-}
-
-header div.secondary-header {
-    width: 100%;
-    border-bottom: 1px solid lightgray;
-    height: 70px;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.third-header {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
-}
-
-.best-experience {
-    width: 50%;
-    color: white;
-    /* padding: 50px 0 50px 200px; */
-    
-}
-
-h1 {
-    font-size: 50px;
-    font-weight: 300;
-    
-}
-h3 {
-    font-size: 35px;
-}
-.best-experience-button {
-   font-size: 16px; 
-   padding: 14px 40px;
-   margin: 20px 0;
-}
-
-.tablet {
-    max-height: 65%;
-    padding: 0 100px 0;
-
-}
 
 /* Contenido intermedio */
 
@@ -124,22 +45,26 @@ main {
     background-color: ;
     width: 90%;
     margin: auto;
-    height: 100vh;
-
+    /* height: 100vh; */
 }
+
 .cabecera {
     padding: 40px 0;
 }
-.subtitulo-tarjeta {
-    color: var(--gold1);
+.sub-cabecera-seccion {
+    font-size: 1.5rem;
+    color: var(--black2);
+    font-weight: 400;
 }
 .contenedor-servicios {
-    background-color: var(--gray);
+    /* background-color: var(--gray); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: hotpink;
+    width: 100%;
+
 }
 .tarjetas-servicios {
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
@@ -147,14 +72,19 @@ main {
     padding: 20px 0;
     border-radius: 10px;
     overflow: hidden;
-    max-height: 40%;
-    
 }
 .img-servicios {
     width: 95%;
     border-radius: 6px;
    
 }
+
+.subtitulo-tarjeta {
+    color: var(--gold1);
+}
+
+
+
 .tarjeta-descripcion {
     padding: 20px;
     color: white;
