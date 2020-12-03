@@ -213,5 +213,7 @@ h2 {
 }
 
 @media (max-width: 900px) {
+    header div.secondary-header {
 
+    }
 }
