@@ -12,6 +12,9 @@
 html {
     font-size: 10px;
 }
+p {
+    font-size: 2rem;
+}
 
 * {
     margin: 0;
@@ -37,130 +40,12 @@ button {
 
 .sub-cabecera-seccion {
     font-weight: 600;
-    font-size: 3rem;
+    font-weight: 5rem;
 }
 
-p {
-    font-size: 2rem;
-}
+
 
 
 
 /* Contenido intermedio */
 
-main {
-    width: 90%;
-    margin: auto;
-    /* height: 100vh; */
-}
-
-.cabecera {
-    padding: 40px 0;
-}
-.sub-cabecera-seccion {
-    font-size: 1.5rem;
-    color: var(--black2);
-    font-weight: 400;
-}
-.contenedor-servicios {
-    /* background-color: var(--gray); */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.tarjetas-servicios {
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
-    width: 30%;
-    padding: 30px 0;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-    text-align: right;
-    margin-bottom: 60px;
-    box-shadow: 0 0 6px var(--color_shadow);
-
-
-}
-.img-servicios {
-    width: 95%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px 0 0 10px;
-
-}
-
-
-.subtitulo-tarjeta {
-    color: var(--gold1);
-    font-weight: 700;
-    margin: 25px 0 12px;
-    font-size: 18px;
-
-}
-
-
-
-.tarjeta-descripcion {
-    color: white;
-    text-align: left;
-    width: 90%;
-    margin: 0 auto;
-}
-.caja-boton {
-    display: flex;
-    justify-content: center;
-}
-
-h2 {
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.info-articulos {
-    padding: 10px 0;
-}
-.boton-servicios {
-    width: 100%;
-    padding: 10px 24px;
-    font-weight: 600;
-    font-size: 18px;
-}
-/* Sección servicios */
-
-
-
-/* medias query */
-
-@media (max-width: 500px) {
-    .third-header {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-    .tablet {
-        height: auto;
-        padding: 0 100px 0;
-    
-    }
-    .contenedor-servicios {
-        display: none;
-      
-    
-}
-
-
-
-/* @media (max-width: 700px) {
-    .third-header {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-}
-
-@media (max-width: 900px) {
-    header div.secondary-header {
-
-    }
-} */

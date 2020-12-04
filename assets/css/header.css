@@ -102,8 +102,6 @@ h3 {
         height: auto;
         flex-direction: column;
     }
-    .logo {
-    }
     nav.menu ul {
         flex-direction: column;
     }
