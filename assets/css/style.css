@@ -9,6 +9,9 @@
     --shadow: 0 8px 8px;
     --color_shadow: #00000033;
 }
+html {
+    font-size: 10px;
+}
 
 * {
     margin: 0;
@@ -35,6 +38,9 @@ button {
 .sub-cabecera-seccion {
     font-weight: 600;
     font-size: 18px;
+}
+p {
+    font-size: 2rem;
 }
 
 
