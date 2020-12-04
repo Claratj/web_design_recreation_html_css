@@ -10,13 +10,16 @@
 .tarjeta-proyecto {
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
     width: 30%;
-    padding: 3rem 0;
+    padding: 2rem;
     border-radius: 1rem;
     color: white;
 }
-.proyectos {
-    width: 60%;
+.proyecto-img {
     object-fit: cover;
     border-radius: 1rem;
+    width: 60%;
+    height: 40rem;
+
+
 
 }
