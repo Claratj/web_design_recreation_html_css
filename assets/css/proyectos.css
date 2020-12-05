@@ -1,18 +1,11 @@
 .proyectos {
     width: 90%;
     margin: auto;
-    /* display: flex;
-    flex-direction: column; */
 }
 .proyecto-despliegue {
-    width: 100%;
-    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: turquoise;
-
-
 }
 .tarjeta-proyecto {
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
@@ -22,9 +15,9 @@
     color: white;
 }
 .proyecto-reciente {
-    width: 60%;
+    width: 40%;
     height: 40rem;
-
+    position: relative;
 }
 .proyecto-img {
     object-fit: cover;
@@ -33,13 +26,13 @@
     height: 40rem;
 
 }
-.texto-flotante {
+/* .texto-flotante {
     position: relative;
     width: 60%;
-    background-color: yellowgreen;
+    background-color: yellowgreen; */
     /* height: auto; */
 
-}
+/* } */
 .titulo-proyecto {
     font-weight: 600;
     font-size: 2.5rem;
