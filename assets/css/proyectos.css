@@ -5,10 +5,13 @@
     flex-direction: column; */
 }
 .proyecto-despliegue {
+    width: 100%;
+    height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    background-color: yellowgreen;
+    background-color: turquoise;
+
 
 }
 .tarjeta-proyecto {
@@ -19,12 +22,35 @@
     color: white;
 }
 .proyecto-reciente {
-    background-color: violet;
     width: 60%;
+    height: 40rem;
+
 }
 .proyecto-img {
     object-fit: cover;
     border-radius: 1rem;
     width: 100%;
     height: 40rem;
+
 }
+.texto-flotante {
+    position: relative;
+    width: 60%;
+    background-color: yellowgreen;
+    /* height: auto; */
+
+}
+.titulo-proyecto {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.titulo-proyecto,
+.subtitulo-proyecto {
+    color: white;
+    position: absolute;
+    background-color: rebeccapurple;
+    width: 60rem;
+    height: 3rem;
+
+ }
+
