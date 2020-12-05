@@ -1,8 +1,39 @@
 .clientes {
     width: 90%;
     margin: auto;
+    padding: 10rem 0;
+}
+.testimonios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.testimonios {
-
+.tarjeta-testimonio {
+    /* background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%); */
+    width: 30%;
+    height: 60rem;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.testimonio-img {
+    object-fit: cover;
+    border-radius: 1rem;
+    width: 100%;
+    height: 60rem;
+}
+.b-color {
+     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+}
+.t-google {
+    position: absolute;
+    top: 20%;
+    bottom: 60%;
+}
+.t-google {
+    color: white;
 }

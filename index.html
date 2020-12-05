@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/servicios.css">
     <link rel="stylesheet" href="assets/css/proyectos.css">
+    <link rel="stylesheet" href="assets/css/clientes-satisfechos.css">
+    <link rel="stylesheet" href="assets/css/formulario.css">
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
     <title>Proyecto 1 CSS</title>
 </head>
 <body>
@@ -87,82 +90,87 @@
             </article>
         </section>
     </main>
+    
     <section class="proyectos">
         <div class="cabecera">
             <h2>Proyectos recientes<span class="y-font">.</span></h2>
             <p class="sub-cabecera-seccion">Hemos colaborado con marcas reconocidas a nivel mundial</p>
         </div>
-        <article class="proyecto-despligue">
-            <div class="tarjeta-proyecto">
-                <h3>Diseño web<span class="y-font">.</span></h3>
-                <p class="subtitulo-tarjeta">24 de agosto 2020</p>
-                <p class="info-articulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, unde, ipsam repellendus labore mollitia dolore dicta incidunt quam maxime autem illo illum optio cum at obcaecati in facilis, fugiat sint!</p>
-                <button class="boton-servicios">Comienza tu proyecto</button>
-
-            </div>
-            <div class="proyecto-reciente">
-                <img class="proyecto-img" src="assets/img/background1.jpg" alt="">
-                <div >
+        <div class="articulos">
+            <article class="proyecto-despligue">
+                <div class="tarjeta-proyecto">
+                    <h3>Diseño web<span class="y-font">.</span></h3>
+                    <p class="subtitulo-tarjeta">24 de agosto 2020</p>
+                    <p class="info-articulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, unde, ipsam repellendus labore mollitia dolore dicta incidunt quam maxime autem illo illum optio cum at obcaecati in facilis, fugiat sint!</p>
+                    <button class="boton-servicios">Comienza tu proyecto</button>
+                </div>
+                <div class="proyecto-reciente p-1">
+                        <p class="titulo-proyecto">La educación en línea</p>
+                        <p class="subtitulo-proyecto">La realidad aumentada transformará por completo la educación</p>
+                </div>
+            </article>
+            <article class="proyecto-despligue">
+                <div class="tarjeta-proyecto">
+                    <h3>Diseño web<span class="y-font">.</span></h3>
+                    <p class="subtitulo-tarjeta">24 de agosto 2020</p>
+                    <p class="info-articulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, unde, ipsam repellendus labore mollitia dolore dicta incidunt quam maxime autem illo illum optio cum at obcaecati in facilis, fugiat sint!</p>
+                    <button class="boton-servicios">Comienza tu proyecto</button>
+    
+                </div>
+                <div class="proyecto-reciente p-2">
                     <p class="titulo-proyecto">La educación en línea</p>
                     <p class="subtitulo-proyecto">La realidad aumentada transformará por completo la educación</p>
                 </div>
-            </div>
-        </article>
-        <article class="proyecto-despligue">
-            <div class="tarjeta-proyecto">
-                <h3>Diseño web<span class="y-font">.</span></h3>
-                <p class="subtitulo-tarjeta">24 de agosto 2020</p>
-                <p class="info-articulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, unde, ipsam repellendus labore mollitia dolore dicta incidunt quam maxime autem illo illum optio cum at obcaecati in facilis, fugiat sint!</p>
-                <button class="boton-servicios">Comienza tu proyecto</button>
-
-            </div>
-            <div class="proyecto-reciente">
-                <img class="proyecto-img" src="assets/img/background2.jpg" alt="">
-                <!-- <div class="texto-flotante"> -->
-                    <p class="titulo-proyecto">La educación en línea</p>
-                    <p class="subtitulo-proyecto">La realidad aumentada transformará por completo la educación</p>
-                <!-- </div> -->
-            </div>
-            
-        </article>
+                
+            </article>
+        </div>
+        
     </section>
     <section class="clientes">
         <div class="cabecera">
             <h2>Clientes Satisfechos<span class="y-font">.</span></h2>
             <p class="sub-cabecera-seccion">Cientos de empresas confian en nosotros</p>
         </div>
-            <div class="testimonios">
-                <img src="assets/img/first-person.jpg" alt="">
+        <div class="testimonios">
+            <div class="tarjeta-testimonio">
+                <img class="testimonio-img" src="assets/img/first-person.jpg" alt="">
             </div>
-            <div class="testimonios">
-                <img src="assets/img/second_person.jpg" alt="">
+            <div class="tarjeta-testimonio">
+                <img class="testimonio-img" src="assets/img/second_person.jpg" alt="">
             </div>
-            <div class="testimonios card">
-                <h2>Google</h2>
-                <p>"Desde que empezamos a trabajar con Templune comenzamos a obtener resultados increíbles. Ahora hemos llegado a un mayor número de clientes potenciales"
+            <div class="tarjeta-testimonio b-color">
+                <img class="google" src="assets/img/google_logo.svg" alt="">
+                <p class="t-google">"Desde que empezamos a trabajar con Templune comenzamos a obtener resultados increíbles. Ahora hemos llegado a un mayor número de clientes potenciales"
                 </p>
             </div>
+        </div>
     </section>
     <form action="_POST">
         <div class="cabecera-formulario">
             <h2>Somos tu mejor opción para adoptar la transformación digital<span class="y-font">.</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus sint ipsa perspiciatis dolorum ipsam dolores ex, cum suscipit. Assumenda cum sit quo dolores iure necessitatibus alias blanditiis tempora neque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus sint ipsa perspiciatis dolorum ipsam dolores ex, cum suscipit. </p>
         </div>
         <div class="proyectos-exitosos">
             <div class="results">
-                <img src="check" alt="">
-                <p>+200</p>
-                <p>Proyectos Exitosos</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACtklEQVRoQ+2ZjW0UMRCFXyogHRAqACoAKghUAFQQUgFQAaSCQAVABUAFSSpI0kFSQdAnrU97e7Z3vB7v3qEb6XRK5J/3ZsbjN74D7bgd7Dh+7QksHUHPCDyTdCyJ76Puu8/vUtKNpD+S/kri72qrJQDQE0mvO9AlgCDzU9JZR6xk7mrsVAKHkj5K+jBp181JXyV9lnRXut4UAnj7XBIkPA3w77uomNctJfDF0espkETj1MrASgBv43W8P4d960iMppSVwI8ZwQcHQYKUypqFACGl0ixhVKhsoRgjQMrg/SXtTe5g5wiQ99cNqk2pMzgHT1IlNkeAHHxbuluj8clUShHghsX722REgdt7zVIE5ji46KEXBR7ipv5kJYD3iUIr+y7pXffhfrEY3icKoxFATV5YVpw4JoAP0yFiJfF8qGJjKUSYEGotbAg+7PFb0kvDhkgM0ntlMQJIXHS9t6XA432iYLFfQ0UQI0D6kEae5gEePDRBpFE2Ag8FyC2VxAt8gLXm9FgErAQQWlx2uQvPGzwkXAgE8MErMRItwLsQoCl/FUmzPolW4E0EOChPR85BSqvzfyxWVUqqTWr7q2GBqSmjpoajQ+IBnqVMZbTkIrOQ8AIPAdNFViolciQ8wUPAJCUYiHB6XHAfxEh4g7+NCUxPOd0n4Q0eXxbJ6akNTa4KFQQ0OrSooWGFnW4pIUBTz1l4VOu6yvn3Xe5HH7n+62eV4Lg5+uNUkKoftnJirTIzRqen9NTaxLEUCoM5D0RirnciwPOk6Pa4O2c6jaZNPwTWCPTn8F5KifWuTlQbVCw9udmmEAglFtHn9WqN11lvNGWGzKYSCOtwY5OrRKVEOzEfbRNa0o0nQ2sIagn090HF8rbDB2LDpohmJPzMSle3FT+zWh3VbJxnBJqBzC28J7CI23ub/gMilYYxQTKTYAAAAABJRU5ErkJggg=="/>
+                <div class="200">
+                    <p>+200</p>
+                    <p>Proyectos Exitosos</p>
+                </div>
             </div>
             <div class="results">
-                <img src="check" alt="">
-                <p>+200</p>
-                <p>Proyectos Exitosos</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACtklEQVRoQ+2ZjW0UMRCFXyogHRAqACoAKghUAFQQUgFQAaSCQAVABUAFSSpI0kFSQdAnrU97e7Z3vB7v3qEb6XRK5J/3ZsbjN74D7bgd7Dh+7QksHUHPCDyTdCyJ76Puu8/vUtKNpD+S/kri72qrJQDQE0mvO9AlgCDzU9JZR6xk7mrsVAKHkj5K+jBp181JXyV9lnRXut4UAnj7XBIkPA3w77uomNctJfDF0espkETj1MrASgBv43W8P4d960iMppSVwI8ZwQcHQYKUypqFACGl0ixhVKhsoRgjQMrg/SXtTe5g5wiQ99cNqk2pMzgHT1IlNkeAHHxbuluj8clUShHghsX722REgdt7zVIE5ji46KEXBR7ipv5kJYD3iUIr+y7pXffhfrEY3icKoxFATV5YVpw4JoAP0yFiJfF8qGJjKUSYEGotbAg+7PFb0kvDhkgM0ntlMQJIXHS9t6XA432iYLFfQ0UQI0D6kEae5gEePDRBpFE2Ag8FyC2VxAt8gLXm9FgErAQQWlx2uQvPGzwkXAgE8MErMRItwLsQoCl/FUmzPolW4E0EOChPR85BSqvzfyxWVUqqTWr7q2GBqSmjpoajQ+IBnqVMZbTkIrOQ8AIPAdNFViolciQ8wUPAJCUYiHB6XHAfxEh4g7+NCUxPOd0n4Q0eXxbJ6akNTa4KFQQ0OrSooWGFnW4pIUBTz1l4VOu6yvn3Xe5HH7n+62eV4Lg5+uNUkKoftnJirTIzRqen9NTaxLEUCoM5D0RirnciwPOk6Pa4O2c6jaZNPwTWCPTn8F5KifWuTlQbVCw9udmmEAglFtHn9WqN11lvNGWGzKYSCOtwY5OrRKVEOzEfbRNa0o0nQ2sIagn090HF8rbDB2LDpohmJPzMSle3FT+zWh3VbJxnBJqBzC28J7CI23ub/gMilYYxQTKTYAAAAABJRU5ErkJggg=="/>
+                <div class="200">
+                    <p>+200</p>
+                    <p>Proyectos Exitosos</p>
+                </div>
             </div>
             <div class="results">
-                <img src="check" alt="">
-                <p>+200</p>
-                <p>Proyectos Exitosos</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACtklEQVRoQ+2ZjW0UMRCFXyogHRAqACoAKghUAFQQUgFQAaSCQAVABUAFSSpI0kFSQdAnrU97e7Z3vB7v3qEb6XRK5J/3ZsbjN74D7bgd7Dh+7QksHUHPCDyTdCyJ76Puu8/vUtKNpD+S/kri72qrJQDQE0mvO9AlgCDzU9JZR6xk7mrsVAKHkj5K+jBp181JXyV9lnRXut4UAnj7XBIkPA3w77uomNctJfDF0espkETj1MrASgBv43W8P4d960iMppSVwI8ZwQcHQYKUypqFACGl0ixhVKhsoRgjQMrg/SXtTe5g5wiQ99cNqk2pMzgHT1IlNkeAHHxbuluj8clUShHghsX722REgdt7zVIE5ji46KEXBR7ipv5kJYD3iUIr+y7pXffhfrEY3icKoxFATV5YVpw4JoAP0yFiJfF8qGJjKUSYEGotbAg+7PFb0kvDhkgM0ntlMQJIXHS9t6XA432iYLFfQ0UQI0D6kEae5gEePDRBpFE2Ag8FyC2VxAt8gLXm9FgErAQQWlx2uQvPGzwkXAgE8MErMRItwLsQoCl/FUmzPolW4E0EOChPR85BSqvzfyxWVUqqTWr7q2GBqSmjpoajQ+IBnqVMZbTkIrOQ8AIPAdNFViolciQ8wUPAJCUYiHB6XHAfxEh4g7+NCUxPOd0n4Q0eXxbJ6akNTa4KFQQ0OrSooWGFnW4pIUBTz1l4VOu6yvn3Xe5HH7n+62eV4Lg5+uNUkKoftnJirTIzRqen9NTaxLEUCoM5D0RirnciwPOk6Pa4O2c6jaZNPwTWCPTn8F5KifWuTlQbVCw9udmmEAglFtHn9WqN11lvNGWGzKYSCOtwY5OrRKVEOzEfbRNa0o0nQ2sIagn090HF8rbDB2LDpohmJPzMSle3FT+zWh3VbJxnBJqBzC28J7CI23ub/gMilYYxQTKTYAAAAABJRU5ErkJggg=="/>
+                <div class="200">
+                    <p>+200</p>
+                    <p>Proyectos Exitosos</p>
+                </div>
             </div>
         </div>
         <div class="formulario">

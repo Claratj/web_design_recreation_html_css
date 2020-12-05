@@ -1,0 +1,36 @@
+form {
+    width: 90%;
+    margin: auto;
+}
+.cabecera-formulario {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    
+}
+.cabecera-formulario h2 {
+    padding: 2rem 0;
+}
+.cabecera-formulario p {
+    padding: 1rem 0;
+}
+
+.proyectos-exitosos{
+    display: flex;
+    justify-content: center;
+    /* margin: ; */
+}
+.results {
+    border-right: 0.2rem solid black;
+    margin: 0 2rem;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
