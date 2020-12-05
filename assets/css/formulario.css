@@ -22,15 +22,35 @@ form {
 }
 .results {
     border-right: 0.2rem solid black;
-    margin: 0 2rem;
+    margin: 6rem 2rem 0;
     padding: 0 1.5rem;
     display: flex;
     flex-direction: row;
 }
 
 .formulario {
-    width: 30%;
-    margin: auto;
+    width: 35%;
+    margin: 6rem auto 0 auto;
     display: flex;
     flex-direction: column;
+}
+label {
+    font-size: 2rem;
+}
+
+#strong {
+    font-weight: 600;
+}
+
+#inputs {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 0.8rem 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.sub-form {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }

@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     margin-top: 2rem;
 }
-.proyecto-despliegue {
+.proyecto-despligue {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -20,27 +20,29 @@
     border-radius: 1rem;
     color: white;
 }
-.proyecto-reciente {
+.proyecto-reciente1, 
+.proyecto-reciente2 {
     width: 60%;
-    height: 40rem;
-    background-image: url(/assets/img/background1.jpg);
-    background-position-y: center;
-    background-size: cover;
+    height: 40vh;
     border-radius: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-    
+    margin-left: 1rem;
+    background-size: cover;
+    color: white;
 }
 
+.proyecto-reciente1 {
+    background-image: url(/assets/img/background1.jpg);
+    background-position-y: center;
+}
+
+.proyecto-reciente2 {
+    background-image: url(/assets/img/background2.jpg);
+    background-position-y: center;
+}
 
 .titulo-proyecto {
     font-weight: 600;
     font-size: 2.5rem;
 }
-.titulo-proyecto,
-.subtitulo-proyecto {
-    color: white;
-    padding: 1rem 3rem;
- }
+
 
