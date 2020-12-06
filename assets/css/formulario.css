@@ -1,7 +1,4 @@
-form {
-    margin: auto;
-    padding-bottom: 8rem;
-}
+
 .cabecera-formulario {
     text-align: center;
     width: 60%;
@@ -27,10 +24,13 @@ form {
     display: flex;
     flex-direction: row;
 }
+.results img {
+    margin-right: 1.5rem;
+}
 
 .formulario {
     width: 35%;
-    margin: 6rem auto 0 auto;
+    margin: 8rem auto;
     display: flex;
     flex-direction: column;
 }
