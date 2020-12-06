@@ -6,12 +6,12 @@
 .articulos {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2rem;
 }
 .proyecto-despligue {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 4rem 0;
 }
 .tarjeta-proyecto {
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
@@ -22,12 +22,16 @@
 }
 .proyecto-reciente1, 
 .proyecto-reciente2 {
-    width: 60%;
+    width: 65%;
     height: 40vh;
+    padding: 2rem;
     border-radius: 1rem;
-    margin-left: 1rem;
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
 }
 
 .proyecto-reciente1 {
