@@ -85,6 +85,9 @@ h3 {
    font-size: 2rem; 
    padding: 1.4rem 4rem;
    margin: 2rem 0;
+   background-color: var(--gold1);
+
+
 }
 .contenedor-tablet {
     width: 50%;
