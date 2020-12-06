@@ -20,7 +20,6 @@
     display: flex;
     flex-wrap: wrap;
     background-size: cover;
-    align-items: center;
 }
 .tarjeta-testimonio1 {
     background-image: url(/assets/img/first-person.jpg);
@@ -40,12 +39,16 @@
     align-items: flex-end;
 }
 
+
 .img-test-1 {
     border-radius: 100%;
     background-image: url(/assets/img/first-person.jpg);
-    background-position: center;
+    background-position-y: 0.1px;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 5rem;
     height: 5rem;
+    margin-right: 2rem;
 }
 
 .t-pie {
@@ -64,12 +67,14 @@
     padding: 1.5rem;
     display: flex;
     align-items: center;
+    position: relative;
+    top: 13rem;
 }
+
 .nombre {
     height: 5rem;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
 }
 .gray {
     color: var(--gray);
@@ -81,15 +86,12 @@
     margin-right: 2rem;
 }
 
-
-
-
 .b-color {
      background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
 }
 .t-google {
     top: 20%;
-    bottom: 60%;
+    /* bottom: 60%; */
 }
 .t-google {
     color: white;
