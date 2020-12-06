@@ -23,6 +23,16 @@
     font-size: 2.5rem;
     padding: 2rem 0;
 }
+.rrss {
+    display: flex;
+    flex-direction: row;
+}
+.i-footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+}
+
 
 footer {
     
@@ -31,4 +41,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.link-b {
+    margin: 5rem;
+    padding: 2rem;
+
+}
+
+.link-b p {
 }
