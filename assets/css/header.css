@@ -94,32 +94,34 @@ h3 {
     padding: auto;
 }
 .tablet {
-    height: 80rem;
+    height: 80vh;
     /* padding: 0 100px 0; */
 
 }
 
 @media (max-width: 500px) {
     .secondary-header {
+        width: 100%;
         display: flex;
         height: auto;
         flex-direction: column;
+        text-align: center;
     }
+
     nav.menu ul {
         flex-direction: column;
     }
-    /* .menu ul li a {
-        width: 100%;
-    } */
-
+ 
     .third-header {
+        width: ;
         height: auto;
         display: flex;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         flex-direction: column-reverse;
     }
     .best-experience {
-        width: 100%;
+        width: 80vw;
+        text-align: center;
     }
 
     .contenedor-tablet{
