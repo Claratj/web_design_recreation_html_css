@@ -10,7 +10,7 @@ main {
 }
 
 .cabecera {
-    padding: 4rem 0;
+    padding: 6rem 0 2rem 0;
 }
 .sub-cabecera-seccion {
     font-size: 2.5rem;
@@ -21,8 +21,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
-    /* flex-wrap: wrap; */
 }
 .tarjetas-servicios {
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
@@ -32,8 +30,7 @@ main {
     overflow: hidden;
     position: relative;
     text-align: right;
-    margin-bottom: 6rem;
-    margin-right: 10rem;
+    margin: 0 10rem 6rem 0;
     box-shadow: 0 0 6px var(--color_shadow);
 
 
@@ -81,41 +78,60 @@ h2 {
     font-size: 1.8rem;
     background-color: var(--gold1);
 }
-/* Sección servicios */
 
-
-
-/* medias query */
 
 @media (max-width: 500px) {
-    .third-header {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-    .tablet {
-        height: auto;
-        padding: 0 100px 0;
-    
+    .sub-cabecera-seccion {
+        font-size: 2rem;
+        text-align: center;
     }
     .contenedor-servicios {
-        display: none;
-      
-    
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjetas-servicios {
+        width: fit-content;
+        margin: 1rem 0;
+    }
+    h2 {
+        text-align: center;
+    }
 }
 
-
-
-/* @media (max-width: 700px) {
-    .third-header {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
+@media (max-width: 700px) {
+    .sub-cabecera-seccion {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjetas-servicios {
+        width: fit-content;
+        margin: 1rem 0;
+    }
+    h2 {
+        text-align: center;
     }
 }
 
 @media (max-width: 900px) {
-    header div.secondary-header {
-
+    .sub-cabecera-seccion {
+        font-size: 2rem;
+        text-align: center;
     }
-} */
+    .contenedor-servicios {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+    .tarjetas-servicios {
+        width: 48%;
+        margin: 2rem auto;
+    }
+    h2 {
+        text-align: center;
+    }
+}

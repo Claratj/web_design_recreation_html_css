@@ -1,6 +1,6 @@
 .clientes {
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
     padding: 10rem 0;
 }
 .testimonios {
@@ -13,7 +13,7 @@
 .tarjeta-testimonio2,
 .tarjeta-testimonio3 {
     width: 30%;
-    height: 70vh;
+    height: 80vh;
     padding: 2rem;
     border-radius: 1rem;
     color: white;
@@ -51,7 +51,8 @@
     margin-right: 2rem;
 }
 
-.t-pie {
+.t-pie,
+.t-pie-3 {
     background-color: var(--black1);
     border-radius: 1rem;
     width: 100%;
@@ -62,13 +63,8 @@
     
 }
 .t-pie-3 {
-    width: 100%;
-    height: 8rem;
-    padding: 1.5rem;
-    display: flex;
-    align-items: center;
     position: relative;
-    top: 13rem;
+    top: 15.5rem;
 }
 
 .nombre {
@@ -95,4 +91,41 @@
 }
 .t-google {
     color: white;
+}
+
+@media (max-width: 500px) {
+    .clientes {
+        padding: 0;
+    }
+    .testimonios {
+        flex-direction: column;
+    }
+    .tarjeta-testimonio1,
+    .tarjeta-testimonio2,
+    .tarjeta-testimonio3 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .t-pie-3 {
+        top: 6.5rem;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .clientes {
+        padding: 0;
+    }
+    .testimonios {
+        flex-direction: column;
+    }
+    .tarjeta-testimonio1,
+    .tarjeta-testimonio2,
+    .tarjeta-testimonio3 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .t-pie-3 {
+        top: 10rem;
+    }
 }

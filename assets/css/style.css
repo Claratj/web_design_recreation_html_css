@@ -11,6 +11,7 @@
 }
 html {
     font-size: 10px;
+    overflow-x: hidden;
 }
 p {
     font-size: 2rem;
@@ -27,8 +28,8 @@ p {
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
-
 button {
     text-align: center;
     text-decoration: none;
@@ -36,16 +37,7 @@ button {
     border: none;
     font-weight: 600;
 }
-
-
 .sub-cabecera-seccion {
     font-weight: 600;
     font-weight: 5rem;
 }
-
-
-
-
-
-/* Contenido intermedio */
-

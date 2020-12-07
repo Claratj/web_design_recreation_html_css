@@ -68,7 +68,6 @@ footer {
 }
 .black-links {
     width: 80%;
-    height: 100%;
     padding: 2rem 10rem;
     display: flex;
     justify-content: space-between;
@@ -100,4 +99,113 @@ footer {
     padding-top: 1rem;
 }
 
+@media (max-width: 500px) {
+   
+    .descarga {
+        margin-right: 0;
+    }
+    .app {
+       flex-direction: column;
+       
+    }
+    .bold-black {
+        text-align: center;
+    }
+
+    .b-descarga {
+        flex-wrap: wrap;
+    }
+    p{
+        text-align: center;
+        padding-bottom: 1rem;
+    } 
+    .privacidad {
+        margin-bottom: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .rrss {
+        flex-direction: column;
+    }
+    .i-footer {
+        justify-content: center;
+    }
+    .i-footer svg {
+        margin: 1rem 1rem;
+    }
+    .links {
+        flex-direction: column;
+        height: auto;
+    }
+    .black-links {
+    height: 100%;
+    padding: 4rem 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    }
+    .b-link {
+        margin: 1rem 0;
+    }
+    .gold-link {
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+   
+    .descarga {
+        margin-right: 0;
+    }
+    .app {
+       flex-direction: column;
+       
+    }
+    .bold-black {
+        text-align: center;
+    }
+
+    .b-descarga {
+        flex-wrap: wrap;
+    }
+    p{
+        text-align: center;
+        padding-bottom: 1rem;
+    } 
+    .privacidad {
+        margin-bottom: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .rrss {
+        flex-direction: column;
+    }
+    .i-footer {
+        justify-content: center;
+    }
+    .i-footer svg {
+        margin: 1rem 1rem;
+    }
+    .links {
+        flex-direction: column;
+        height: auto;
+    }
+    .black-links {
+    height: 100%;
+    padding: 4rem 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    }
+    .b-link {
+        margin: 1rem 0;
+    }
+    .gold-link {
+        width: 100%;
+        padding: 2rem;
+    }
+}
 
