@@ -1,114 +1,284 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
-
-    <link rel="stylesheet" href="assets/css/style.css" />
-
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/servicios.css">
+    <link rel="stylesheet" href="assets/css/proyectos.css">
+    <link rel="stylesheet" href="assets/css/clientes-satisfechos.css">
+    <link rel="stylesheet" href="assets/css/formulario.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <title>Proyecto 1 CSS</title>
 </head>
 
 <body>
     <header class="main-header">
         <div class="secondary-header">
-            <img src="assets/img/logo.png" class="logo"></img>
+            <div>
+                <p class="logo">Web Design<span class="y-font">.</span></p>
+            </div>
             <nav class="menu">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Clientes</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/">Servicios</a></li>
+                    <li><a href="/">Proyectos</a></li>
+                    <li><a href="/">Clientes</a></li>
+                    <li><a href="/">Contacto</a></li>
                 </ul>
             </nav>
         </div>
-
-        <section class="container hero__main">
-            <div class="hero__textos">
-                <h1 class="title">
-                    La mejor
-                    <span class="title--active">Experiencia Digital.</span>
-                </h1>
-                <p class="copy">
-                    Nos encargamos de llevar tu idea al
-                    <span class="copy__active">siguiente nivel</span>
-                </p>
-                <a href="#" class="cta">Agenda una demo</a>
+        <section class="third-header">
+            <div class="best-experience">
+                <h1>La mejor <strong class="y-font">Experiencia <br> Digital.</strong></h1>
+                <p class="h1-subtitulo">Nos encargamos de llevar tu idea al siguiente nivel</p>
+                <button class="best-experience-button">Agenda una demo</button>
             </div>
-            <img src="assets/img/mockup.png" class="mockup" />
+            <div class="contenedor-tablet">
+                <img class="tablet"  src="assets/img/mockup.png" alt="tablet">
+            </div>
         </section>
     </header>
+    
     <main>
-        <!-- NUESTROS SERVICIOS -->
-        <section class="services">
-            <div class="container">
-                <h2 class="subtitle">
-                    Nuestros servicios
-                    <span class="point">.</span>
-                </h2>
-                <p class="copy__section">
-                    Ofrecemos las soluciones perfectas para revolución digital
-                </p>
-
-                <article class="container-cards">
-                    <div class="card">
-                        <img src="assets/img/image2.jpg" class="card__img" />
-                        <div class="cards__text">
-                            <p class="card__list">Especialistas en diseño UX / UI</p>
-                            <h3 class="card__title">
-                                Web apps
-                                <span class="point">.</span>
-                            </h3>
-                            <p class="card__copy">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-                                dolorum sit molestias ipsam at veritatis ut esse eius, dolor
-                                est!
-                            </p>
-                            <button href="#" class="card__button">Comienza tu proyecto</button>
+        <div class="cabecera">
+            <h2>Nuestros servicios<span class="y-font">.</span></h2>
+            <p class="sub-cabecera-seccion">Ofrecemos las soluciones perfectas para la revolución digital</p>
+        </div>
+        <section class="contenedor-servicios">
+            <article class="tarjetas-servicios">
+                <div >
+                    <img class="img-servicios" src="assets/img/image2.jpg" alt="">
+                </div>
+                <div class="tarjeta-descripcion">
+                        <p class="subtitulo-tarjeta">Especialistas en diseño UX/UI</p>
+                        <h3>Web apps<span class="y-font">.</span></h3>
+                        <p class="info-articulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit nemo corporis, molestiae accusamus quasi incidunt non dolore culpa, similique deserunt reprehenderit inventore quos, ex odio? Eius voluptatem laborum tenetur.</p>
+                        <div class="caja-boton">
+                            <button class="boton-servicios">Comienza tu proyecto</button>
                         </div>
+                </div>
+            </article>
+            <article class="tarjetas-servicios">
+                    <div >
+                        <img class="img-servicios" src="assets/img/image1.jpg" alt="">
                     </div>
-                    <div class="card">
-                        <img src="assets/img/image1.jpg" class="card__img" />
-                        <div class="cards__text">
-                            <p class="card__list">Especialistas en diseño UX / UI</p>
-                            <h3 class="card__title">
-                                Diseño web
-                                <span class="point">.</span>
-                            </h3>
-                            <p class="card__copy">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-                                dolorum sit molestias ipsam at veritatis ut esse eius, dolor
-                                est!
-                            </p>
-                            <button href="#" class="card__button">Comienza tu proyecto</button>
+                    <div class="tarjeta-descripcion">
+                        <p class="subtitulo-tarjeta">Especialistas en diseño UX/UI</p>
+                        <h3>Diseño web<span class="y-font">.</span></h3>
+                        <p class="info-articulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit nemo corporis, molestiae accusamus quasi incidunt non dolore culpa, similique deserunt reprehenderit inventore quos, ex odio? Eius voluptatem laborum tenetur.</p>
+                        <div class="caja-boton">
+                            <button class="boton-servicios">Comienza tu proyecto</button>
                         </div>
+                </div>
+            </article>
+            <article class="tarjetas-servicios">
+                    <div >
+                        <img class="img-servicios" src="assets/img/image3.jpg" alt="">
                     </div>
-                    <div class="card">
-                        <img src="assets/img/image3.jpg" class="card__img" />
-                        <div class="cards__text">
-                            <p class="card__list">Especialistas en diseño UX / UI</p>
-                            <h3 class="card__title">
-                                Ecommerce
-                                <span class="point">.</span>
-                            </h3>
-                            <p class="card__copy">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-                                dolorum sit molestias ipsam at veritatis ut esse eius, dolor
-                                est!
-                            </p>
-                            <button href="#" class="card__button">Comienza tu proyecto</button>
+                    <div class="tarjeta-descripcion">
+                        <p class="subtitulo-tarjeta">Especialistas en diseño UX/UI</p>
+                        <h3>Ecommerce<span class="y-font">.</span></h3>
+                        <p class="info-articulos" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit nemo corporis, molestiae accusamus quasi incidunt non dolore culpa, similique deserunt reprehenderit inventore quos, ex odio? Eius voluptatem laborum tenetur.</p>
+                        <div class="caja-boton">
+                            <button class="boton-servicios">Comienza tu proyecto</button>
                         </div>
-                    </div>
-                </article>
-            </div>
+                        
+                </div>
+            </article>
         </section>
     </main>
-    <footer></footer>
+    
+    <section class="proyectos">
+        <div class="cabecera">
+            <h2>Proyectos recientes<span class="y-font">.</span></h2>
+            <p class="sub-cabecera-seccion">Hemos colaborado con marcas reconocidas a nivel mundial</p>
+        </div>
+        <div class="articulos">
+            <article class="proyecto-despligue">
+                <div class="tarjeta-proyecto">
+                    <h3>Diseño web<span class="y-font">.</span></h3>
+                    <p class="subtitulo-tarjeta">24 de agosto 2020</p>
+                    <p class="info-articulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, unde, ipsam repellendus labore mollitia dolore dicta incidunt quam maxime autem illo illum optio cum at obcaecati in facilis, fugiat sint!</p>
+                    <button class="boton-servicios">Comienza tu proyecto</button>
+                </div>
+                <div class="proyecto-reciente1">
+                        <p class="titulo-proyecto">La educación en línea</p>
+                        <p class="subtitulo-proyecto">La realidad aumentada transformará por completo la educación</p>
+                </div>
+            </article>
+            <article class="proyecto-despligue">
+                <div class="tarjeta-proyecto">
+                    <h3>Diseño web<span class="y-font">.</span></h3>
+                    <p class="subtitulo-tarjeta">24 de agosto 2020</p>
+                    <p class="info-articulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, unde, ipsam repellendus labore mollitia dolore dicta incidunt quam maxime autem illo illum optio cum at obcaecati in facilis, fugiat sint!</p>
+                    <button class="boton-servicios">Comienza tu proyecto</button>
+    
+                </div>
+                <div class="proyecto-reciente2">
+                    <p class="titulo-proyecto">La educación en línea</p>
+                    <p class="subtitulo-proyecto">La realidad aumentada transformará por completo la educación</p>
+                </div>
+                
+            </article>
+        </div>
+        
+    </section>
+    <section class="clientes">
+        <div class="cabecera">
+            <h2>Clientes Satisfechos<span class="y-font">.</span></h2>
+            <p class="sub-cabecera-seccion">Cientos de empresas confian en nosotros</p>
+        </div>
+        <div class="testimonios">
+            <div class="tarjeta-testimonio1">
+                <div class="t-pie">
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill:rgba(255, 255, 255, 1);transform:;-ms-filter:"><path d="M20.283,10.356h-8.327v3.451h4.792c-0.446,2.193-2.313,3.453-4.792,3.453c-2.923,0-5.279-2.356-5.279-5.28 c0-2.923,2.356-5.279,5.279-5.279c1.259,0,2.397,0.447,3.29,1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233 c-4.954,0-8.934,3.979-8.934,8.934c0,4.955,3.979,8.934,8.934,8.934c4.467,0,8.529-3.249,8.529-8.934 C20.485,11.453,20.404,10.884,20.283,10.356z"></path></svg>
+                    <div class="nombre"> 
+                        <p class="titulo-proyecto">Andres García</p>
+                        <p class="gray">Director de Google México</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="tarjeta-testimonio2">
+                <div class="t-pie">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill:rgba(255, 255, 255, 1);transform:;-ms-filter:"><path d="M19.665,16.811c-0.287,0.664-0.627,1.275-1.021,1.837c-0.537,0.767-0.978,1.297-1.316,1.592 c-0.525,0.482-1.089,0.73-1.692,0.744c-0.432,0-0.954-0.123-1.562-0.373c-0.61-0.249-1.17-0.371-1.683-0.371 c-0.537,0-1.113,0.122-1.73,0.371c-0.616,0.25-1.114,0.381-1.495,0.393c-0.577,0.025-1.154-0.229-1.729-0.764 c-0.367-0.32-0.826-0.87-1.377-1.648c-0.59-0.829-1.075-1.794-1.455-2.891c-0.407-1.187-0.611-2.335-0.611-3.447 c0-1.273,0.275-2.372,0.826-3.292c0.434-0.74,1.01-1.323,1.73-1.751C7.271,6.782,8.051,6.563,8.89,6.549 c0.46,0,1.063,0.142,1.81,0.422s1.227,0.422,1.436,0.422c0.158,0,0.689-0.167,1.593-0.498c0.853-0.307,1.573-0.434,2.163-0.384 c1.6,0.129,2.801,0.759,3.6,1.895c-1.43,0.867-2.137,2.08-2.123,3.637c0.012,1.213,0.453,2.222,1.317,3.023 c0.392,0.372,0.829,0.659,1.315,0.863C19.895,16.236,19.783,16.529,19.665,16.811L19.665,16.811z M15.998,2.38 c0,0.95-0.348,1.838-1.039,2.659c-0.836,0.976-1.846,1.541-2.941,1.452c-0.014-0.114-0.021-0.234-0.021-0.36 c0-0.913,0.396-1.889,1.103-2.688c0.352-0.404,0.8-0.741,1.343-1.009c0.542-0.264,1.054-0.41,1.536-0.435 C15.992,2.127,15.998,2.254,15.998,2.38L15.998,2.38z"></path></svg>
+                    <div class="nombre"> 
+                        <p class="titulo-proyecto">Andres García</p>
+                        <p class="gray">Director de Google México</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta-testimonio3 b-color">
+                <img class="google" src="assets/img/google_logo.svg" alt="">
+                <p class="t-google">"Desde que empezamos a trabajar con Templune comenzamos a obtener resultados increíbles. Ahora hemos llegado a un mayor número de clientes potenciales"
+                </p>
+                <div class="t-pie-3">
+                    <div class="img-test-1">
+                    </div>
+                    
+                    <div class="nombre">
+                        <p class="titulo-proyecto">Andres García</p>
+                        <p class="gray">Director de Google México</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <form action="_POST">
+        <div class="cabecera-formulario">
+            <h2>Somos tu mejor opción para adoptar la transformación digital<span class="y-font">.</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus sint ipsa perspiciatis dolorum ipsam dolores ex, cum suscipit. </p>
+        </div>
+        <div class="proyectos-exitosos">
+            <div class="results">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACtklEQVRoQ+2ZjW0UMRCFXyogHRAqACoAKghUAFQQUgFQAaSCQAVABUAFSSpI0kFSQdAnrU97e7Z3vB7v3qEb6XRK5J/3ZsbjN74D7bgd7Dh+7QksHUHPCDyTdCyJ76Puu8/vUtKNpD+S/kri72qrJQDQE0mvO9AlgCDzU9JZR6xk7mrsVAKHkj5K+jBp181JXyV9lnRXut4UAnj7XBIkPA3w77uomNctJfDF0espkETj1MrASgBv43W8P4d960iMppSVwI8ZwQcHQYKUypqFACGl0ixhVKhsoRgjQMrg/SXtTe5g5wiQ99cNqk2pMzgHT1IlNkeAHHxbuluj8clUShHghsX722REgdt7zVIE5ji46KEXBR7ipv5kJYD3iUIr+y7pXffhfrEY3icKoxFATV5YVpw4JoAP0yFiJfF8qGJjKUSYEGotbAg+7PFb0kvDhkgM0ntlMQJIXHS9t6XA432iYLFfQ0UQI0D6kEae5gEePDRBpFE2Ag8FyC2VxAt8gLXm9FgErAQQWlx2uQvPGzwkXAgE8MErMRItwLsQoCl/FUmzPolW4E0EOChPR85BSqvzfyxWVUqqTWr7q2GBqSmjpoajQ+IBnqVMZbTkIrOQ8AIPAdNFViolciQ8wUPAJCUYiHB6XHAfxEh4g7+NCUxPOd0n4Q0eXxbJ6akNTa4KFQQ0OrSooWGFnW4pIUBTz1l4VOu6yvn3Xe5HH7n+62eV4Lg5+uNUkKoftnJirTIzRqen9NTaxLEUCoM5D0RirnciwPOk6Pa4O2c6jaZNPwTWCPTn8F5KifWuTlQbVCw9udmmEAglFtHn9WqN11lvNGWGzKYSCOtwY5OrRKVEOzEfbRNa0o0nQ2sIagn090HF8rbDB2LDpohmJPzMSle3FT+zWh3VbJxnBJqBzC28J7CI23ub/gMilYYxQTKTYAAAAABJRU5ErkJggg=="/>
+                <div class="p-exitosos">
+                    <p id="strong">+200</p>
+                    <p>Proyectos Exitosos</p>
+                </div>
+            </div>
+            <div class="results">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACtklEQVRoQ+2ZjW0UMRCFXyogHRAqACoAKghUAFQQUgFQAaSCQAVABUAFSSpI0kFSQdAnrU97e7Z3vB7v3qEb6XRK5J/3ZsbjN74D7bgd7Dh+7QksHUHPCDyTdCyJ76Puu8/vUtKNpD+S/kri72qrJQDQE0mvO9AlgCDzU9JZR6xk7mrsVAKHkj5K+jBp181JXyV9lnRXut4UAnj7XBIkPA3w77uomNctJfDF0espkETj1MrASgBv43W8P4d960iMppSVwI8ZwQcHQYKUypqFACGl0ixhVKhsoRgjQMrg/SXtTe5g5wiQ99cNqk2pMzgHT1IlNkeAHHxbuluj8clUShHghsX722REgdt7zVIE5ji46KEXBR7ipv5kJYD3iUIr+y7pXffhfrEY3icKoxFATV5YVpw4JoAP0yFiJfF8qGJjKUSYEGotbAg+7PFb0kvDhkgM0ntlMQJIXHS9t6XA432iYLFfQ0UQI0D6kEae5gEePDRBpFE2Ag8FyC2VxAt8gLXm9FgErAQQWlx2uQvPGzwkXAgE8MErMRItwLsQoCl/FUmzPolW4E0EOChPR85BSqvzfyxWVUqqTWr7q2GBqSmjpoajQ+IBnqVMZbTkIrOQ8AIPAdNFViolciQ8wUPAJCUYiHB6XHAfxEh4g7+NCUxPOd0n4Q0eXxbJ6akNTa4KFQQ0OrSooWGFnW4pIUBTz1l4VOu6yvn3Xe5HH7n+62eV4Lg5+uNUkKoftnJirTIzRqen9NTaxLEUCoM5D0RirnciwPOk6Pa4O2c6jaZNPwTWCPTn8F5KifWuTlQbVCw9udmmEAglFtHn9WqN11lvNGWGzKYSCOtwY5OrRKVEOzEfbRNa0o0nQ2sIagn090HF8rbDB2LDpohmJPzMSle3FT+zWh3VbJxnBJqBzC28J7CI23ub/gMilYYxQTKTYAAAAABJRU5ErkJggg=="/>
+                <div class="p-exitosos">
+                    <p id="strong">+200</p>
+                    <p>Proyectos Exitosos</p>
+                </div>
+            </div>
+            <div class="results">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACtklEQVRoQ+2ZjW0UMRCFXyogHRAqACoAKghUAFQQUgFQAaSCQAVABUAFSSpI0kFSQdAnrU97e7Z3vB7v3qEb6XRK5J/3ZsbjN74D7bgd7Dh+7QksHUHPCDyTdCyJ76Puu8/vUtKNpD+S/kri72qrJQDQE0mvO9AlgCDzU9JZR6xk7mrsVAKHkj5K+jBp181JXyV9lnRXut4UAnj7XBIkPA3w77uomNctJfDF0espkETj1MrASgBv43W8P4d960iMppSVwI8ZwQcHQYKUypqFACGl0ixhVKhsoRgjQMrg/SXtTe5g5wiQ99cNqk2pMzgHT1IlNkeAHHxbuluj8clUShHghsX722REgdt7zVIE5ji46KEXBR7ipv5kJYD3iUIr+y7pXffhfrEY3icKoxFATV5YVpw4JoAP0yFiJfF8qGJjKUSYEGotbAg+7PFb0kvDhkgM0ntlMQJIXHS9t6XA432iYLFfQ0UQI0D6kEae5gEePDRBpFE2Ag8FyC2VxAt8gLXm9FgErAQQWlx2uQvPGzwkXAgE8MErMRItwLsQoCl/FUmzPolW4E0EOChPR85BSqvzfyxWVUqqTWr7q2GBqSmjpoajQ+IBnqVMZbTkIrOQ8AIPAdNFViolciQ8wUPAJCUYiHB6XHAfxEh4g7+NCUxPOd0n4Q0eXxbJ6akNTa4KFQQ0OrSooWGFnW4pIUBTz1l4VOu6yvn3Xe5HH7n+62eV4Lg5+uNUkKoftnJirTIzRqen9NTaxLEUCoM5D0RirnciwPOk6Pa4O2c6jaZNPwTWCPTn8F5KifWuTlQbVCw9udmmEAglFtHn9WqN11lvNGWGzKYSCOtwY5OrRKVEOzEfbRNa0o0nQ2sIagn090HF8rbDB2LDpohmJPzMSle3FT+zWh3VbJxnBJqBzC28J7CI23ub/gMilYYxQTKTYAAAAABJRU5ErkJggg=="/>
+                <div class="p-exitosos">
+                    <p id="strong">+200</p>
+                    <p>Proyectos Exitosos</p>
+                </div>
+            </div>
+        </div>
+        <div class="formulario">
+            <label for="" id="strong">Formulario</label>
+            <input type="email" id="inputs" placeholder="Ingresa tu email">
+            <label for="">Usuario</label>
+            <input type="text" name="" id="inputs" placeholder="Nombre de usuario">
+            <label for="">Password</label>
+            <input type="password" name="" id="inputs" placeholder="Contraseña">
+            <p class="sub-form">Complete la información para su registro</p>
+            <button class="black">Registrarse</button>
+        </div>
+    </form>
+
+    <div class="pre-footer">
+        <div class="app-descarga">
+            <div class="app">
+                <div class="descarga">
+                    <p class="bold-black">Descarga nuestra App</p> 
+                    <div class="b-descarga">
+                        <button class="app-store">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.665,16.811c-0.287,0.664-0.627,1.275-1.021,1.837c-0.537,0.767-0.978,1.297-1.316,1.592 c-0.525,0.482-1.089,0.73-1.692,0.744c-0.432,0-0.954-0.123-1.562-0.373c-0.61-0.249-1.17-0.371-1.683-0.371 c-0.537,0-1.113,0.122-1.73,0.371c-0.616,0.25-1.114,0.381-1.495,0.393c-0.577,0.025-1.154-0.229-1.729-0.764 c-0.367-0.32-0.826-0.87-1.377-1.648c-0.59-0.829-1.075-1.794-1.455-2.891c-0.407-1.187-0.611-2.335-0.611-3.447 c0-1.273,0.275-2.372,0.826-3.292c0.434-0.74,1.01-1.323,1.73-1.751C7.271,6.782,8.051,6.563,8.89,6.549 c0.46,0,1.063,0.142,1.81,0.422s1.227,0.422,1.436,0.422c0.158,0,0.689-0.167,1.593-0.498c0.853-0.307,1.573-0.434,2.163-0.384 c1.6,0.129,2.801,0.759,3.6,1.895c-1.43,0.867-2.137,2.08-2.123,3.637c0.012,1.213,0.453,2.222,1.317,3.023 c0.392,0.372,0.829,0.659,1.315,0.863C19.895,16.236,19.783,16.529,19.665,16.811L19.665,16.811z M15.998,2.38 c0,0.95-0.348,1.838-1.039,2.659c-0.836,0.976-1.846,1.541-2.941,1.452c-0.014-0.114-0.021-0.234-0.021-0.36 c0-0.913,0.396-1.889,1.103-2.688c0.352-0.404,0.8-0.741,1.343-1.009c0.542-0.264,1.054-0.41,1.536-0.435 C15.992,2.127,15.998,2.254,15.998,2.38L15.998,2.38z"></path></svg>
+                            <p>App Store</p>
+                        </button>
+                        <button class="app-store">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12.954 11.616l2.957-2.957L6.36 3.291c-.633-.342-1.226-.39-1.746-.016L12.954 11.616zM16.415 15.078l3.074-1.729c.6-.336.929-.812.929-1.34 0-.527-.329-1.004-.928-1.34l-2.783-1.563-3.133 3.132L16.415 15.078zM4.1 4.002C4.036 4.199 4 4.419 4 4.66v14.705c0 .381.084.709.236.97l8.097-8.098L4.1 4.002zM12.954 12.857L4.902 20.91C5.056 20.969 5.222 21 5.397 21c.312 0 .637-.092.968-.276l9.255-5.197L12.954 12.857z"></path></svg>
+                            <p>Play Store</p>
+                        </button>
+                    </div>
+                    <p>Upgrade Hub &copy; 2020 Todos los derechos reservados</p>
+                    <div class="privacidad">
+                        <a href="/">Politica de privacidad</a>
+                        <a href="/">Terminos y condiciones</a>
+                    </div>    
+                
+                </div>
+                <div class="news">
+                    <p class="bold-black">
+                        ¿Estás listo para trabajar con nostros?
+                    </p>
+                    <form action="_POST">
+                        <input type="email" name="" id="inputs" placeholder="ingresa tu email">
+                        <button class="black">Comienza hoy</button>
+                    </form>
+                    <div class="rrss">
+                        <p>Síguenos en:</p>
+                        <div class="i-footer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12.001,2.002c-5.522,0-9.999,4.477-9.999,9.999c0,4.99,3.656,9.126,8.437,9.879v-6.988h-2.54v-2.891h2.54V9.798 c0-2.508,1.493-3.891,3.776-3.891c1.094,0,2.24,0.195,2.24,0.195v2.459h-1.264c-1.24,0-1.628,0.772-1.628,1.563v1.875h2.771 l-0.443,2.891h-2.328v6.988C18.344,21.129,22,16.992,22,12.001C22,6.479,17.523,2.002,12.001,2.002z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667 v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548 S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248 h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026,2c-5.509,0-9.974,4.465-9.974,9.974c0,4.406,2.857,8.145,6.821,9.465 c0.499,0.09,0.679-0.217,0.679-0.481c0-0.237-0.008-0.865-0.011-1.696c-2.775,0.602-3.361-1.338-3.361-1.338 c-0.452-1.152-1.107-1.459-1.107-1.459c-0.905-0.619,0.069-0.605,0.069-0.605c1.002,0.07,1.527,1.028,1.527,1.028 c0.89,1.524,2.336,1.084,2.902,0.829c0.091-0.645,0.351-1.085,0.635-1.334c-2.214-0.251-4.542-1.107-4.542-4.93 c0-1.087,0.389-1.979,1.024-2.675c-0.101-0.253-0.446-1.268,0.099-2.64c0,0,0.837-0.269,2.742,1.021 c0.798-0.221,1.649-0.332,2.496-0.336c0.849,0.004,1.701,0.115,2.496,0.336c1.906-1.291,2.742-1.021,2.742-1.021 c0.545,1.372,0.203,2.387,0.099,2.64c0.64,0.696,1.024,1.587,1.024,2.675c0,3.833-2.33,4.675-4.552,4.922 c0.355,0.308,0.675,0.916,0.675,1.846c0,1.334-0.012,2.41-0.012,2.737c0,0.267,0.178,0.577,0.687,0.479 C19.146,20.115,22,16.379,22,11.974C22,6.465,17.535,2,12.026,2z"></path></svg>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+       
+    <footer>    
+        <div class="links">
+            <div class="black-links">
+                <div class="b-link">
+                    <box-icon name='copyright' color='#ffffff' ></box-icon>
+                    <a class="f-link" href="">Web Design</a>
+                </div>
+                <div class="b-link">
+                    <box-icon name='mail-send' color='#ffffff' ></box-icon>
+                    <a class="f-link" href="">hola@upgrade</a>
+
+                </div>
+                <div class="b-link">
+                    <box-icon name='edit-location' type='solid' color='#ffffff' ></box-icon>
+                    <a class="f-link" href="">Paseos de la reforma</a>
+                </div>
+            </div>
+          <div class="gold-link">
+            <box-icon name='chat' type='solid' ></box-icon>
+              <a class="f-link" href="">Contáctanos ahora</a>
+          </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>

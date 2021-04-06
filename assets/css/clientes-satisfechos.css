@@ -1,0 +1,131 @@
+.clientes {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+.testimonios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta-testimonio1,
+.tarjeta-testimonio2,
+.tarjeta-testimonio3 {
+    width: 30%;
+    height: 80vh;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+.tarjeta-testimonio1 {
+    background-image: url(/assets/img/first-person.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+.tarjeta-testimonio2 {
+    background-image: url(/assets/img/second_person.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.img-test-1 {
+    border-radius: 100%;
+    background-image: url(/assets/img/first-person.jpg);
+    background-position-y: 0.1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+}
+
+.t-pie,
+.t-pie-3 {
+    background-color: var(--black1);
+    border-radius: 1rem;
+    width: 100%;
+    height: 8rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.t-pie-3 {
+    position: relative;
+    top: 15.5rem;
+}
+
+.nombre {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.gray {
+    color: var(--gray);
+    font-size: 1.5rem;
+}
+.t-pie svg {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+}
+
+.b-color {
+     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+}
+.t-google {
+    top: 20%;
+    /* bottom: 60%; */
+}
+.t-google {
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .clientes {
+        padding: 0;
+    }
+    .testimonios {
+        flex-direction: column;
+    }
+    .tarjeta-testimonio1,
+    .tarjeta-testimonio2,
+    .tarjeta-testimonio3 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .t-pie-3 {
+        top: 6.5rem;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .clientes {
+        padding: 0;
+    }
+    .testimonios {
+        flex-direction: column;
+    }
+    .tarjeta-testimonio1,
+    .tarjeta-testimonio2,
+    .tarjeta-testimonio3 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .t-pie-3 {
+        top: 10rem;
+    }
+}

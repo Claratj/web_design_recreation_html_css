@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 90%;
+    margin: auto;
+    /* background-color: rgb(221, 221, 221);     */
+}
+
+.cabecera {
+    padding: 6rem 0 2rem 0;
+}
+.sub-cabecera-seccion {
+    font-size: 2.5rem;
+    color: var(--black2);
+    font-weight: 400;
+}
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarjetas-servicios {
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    width: 30%;
+    padding: 3rem 0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    margin: 0 10rem 6rem 0;
+    box-shadow: 0 0 6px var(--color_shadow);
+
+
+}
+.img-servicios {
+    width: 95%;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.subtitulo-tarjeta {
+    color: var(--gold1);
+    font-weight: 700;
+    margin: 25px 0 12px;
+    font-size: 2.5rem;
+}
+
+.tarjeta-descripcion {
+    color: white;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+.caja-boton {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.info-articulos {
+    padding: 2rem 0;
+    text-align: left;
+    color: var(--gray);
+}
+.boton-servicios {
+    width: 100%;
+    padding: 1.5rem 2.4rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    background-color: var(--gold1);
+}
+
+
+@media (max-width: 500px) {
+    .sub-cabecera-seccion {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjetas-servicios {
+        width: fit-content;
+        margin: 1rem 0;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .sub-cabecera-seccion {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjetas-servicios {
+        width: fit-content;
+        margin: 1rem 0;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .sub-cabecera-seccion {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .contenedor-servicios {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+    .tarjetas-servicios {
+        width: 48%;
+        margin: 2rem auto;
+    }
+    h2 {
+        text-align: center;
+    }
+}
